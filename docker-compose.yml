@@ -1,0 +1,7 @@
+services:
+  exams:
+    build: .
+    ports:
+      - 3000:3000
+    environment:
+      VAR: val
